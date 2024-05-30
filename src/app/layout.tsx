@@ -3,6 +3,7 @@ import '@/app/ui/globals.css';
 import type { Metadata } from 'next';
 import { Secular_One } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import { Header } from '@/app/ui/header';
 import { Footer } from '@/app/ui/footer';
@@ -31,6 +32,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Analytics />
+        <SpeedInsights />
         <Footer />
       </body>
     </html>
