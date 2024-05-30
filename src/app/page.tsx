@@ -10,7 +10,7 @@ export default function Home() {
 
       <div className="py-2" />
 
-      <p className="text-xs md:text-base text-justify">
+      <p className="text-xs md:text-base text-justify indent-5">
         Todo evento esportivo que se preze merece ter a suas memórias guardadas!
         Com o Inter*** não deve ser diferente. É com este intuito que
         apresentamos o Memórias Inter, uma página criada por fãs que tem como
@@ -20,7 +20,7 @@ export default function Home() {
 
       <div className="py-2" />
 
-      <p className="text-xs md:text-base text-justify">
+      <p className="text-xs md:text-base text-justify indent-5">
         Vale ressaltar que este projeto está apenas iniciando, são inúmeros
         dados históricos que desejamos disponibilizar para que mais fãs dessa
         competição possam se debruçar e interpretá-los de forma dinâmica e
@@ -29,7 +29,7 @@ export default function Home() {
 
       <div className="py-2" />
 
-      <p className="text-xs md:text-base text-justify">
+      <p className="text-xs md:text-base text-justify indent-5">
         Nesse primeiro momento, começamos por todas as classificações gerais e
         comissões organizadoras de cada edição, além do ano de fundação de cada
         atlética. Utilize o menu acima para navegar entre os dados.
@@ -38,7 +38,7 @@ export default function Home() {
       <div className="py-2" />
 
       <p className="text-xs md:text-base text-justify">
-        *Caso encontre dados inconsistentes, contate-nos pelo direct do
+        * Caso encontre dados inconsistentes, contate-nos pelo direct do
         Instagram:&nbsp;
         <a
           href="https://www.instagram.com/memoriasinter/"
@@ -49,6 +49,16 @@ export default function Home() {
           @memoriasinter
         </a>
         .
+      </p>
+
+      <div className="py-2" />
+
+      <p className="text-xs md:text-base text-justify">
+        * Nota: Nos primórdios do Inter, algumas atléticas ainda não tinham sido
+        fundadas e eram representadas somente pelo nome do seu curso. Para
+        simplificar a visualização e entendimento das classificações gerais,
+        decidimos utilizar a atlética como representante, mas que ela tenha sido
+        fundada posteriormente.
       </p>
 
       <div className="py-4" />
