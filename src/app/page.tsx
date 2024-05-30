@@ -38,13 +38,15 @@ export default function Home() {
       <div className="py-2" />
 
       <p className="text-xs md:text-base text-justify">
-        *Caso encontre dados inconsistentes, contate-nos através do
-        e-mail:&nbsp;
+        *Caso encontre dados inconsistentes, contate-nos pelo direct do
+        Instagram:&nbsp;
         <a
-          href="mailto:memoriasinter@gmail.com"
+          href="https://www.instagram.com/memoriasinter/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-[#E66E25] underline"
         >
-          memoriasinter@gmail.com
+          @memoriasinter
         </a>
         .
       </p>
