@@ -57,8 +57,8 @@ export default function Home() {
         * Nota: Nos primórdios do Inter, algumas atléticas ainda não tinham sido
         fundadas e eram representadas somente pelo nome do seu curso. Para
         simplificar a visualização e entendimento das classificações gerais,
-        decidimos utilizar a atlética como representante, mas que ela tenha sido
-        fundada posteriormente.
+        decidimos utilizar a atlética como representante, mesmo que ela tenha
+        sido fundada posteriormente.
       </p>
 
       <div className="py-4" />
