@@ -18,7 +18,7 @@ export default function Home() {
         <div className="flex justify-center md:justify-start">
           <Link
             href="/"
-            className="py-1 px-4 rounded-md duration-300 text-white hover:text-[#FFCA06] bg-[#E66E25]"
+            className="py-1 px-4 rounded-md duration-300 text-white hover:text-yellow-400 bg-[#E66E25]"
           >
             <span className="flex items-center gap-2">
               <TiArrowBack className="size-5" />

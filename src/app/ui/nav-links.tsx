@@ -28,9 +28,9 @@ export function NavLinks() {
             key={link.name}
             href={link.href}
             className={clsx(
-              'mr-2 text-xs md:text-sm text-white hover:text-[#FFCA06]',
+              'mr-2 text-xs md:text-sm text-white hover:text-yellow-400',
               {
-                'text-[#FFCA06]': pathname === link.href
+                'text-yellow-400': pathname === link.href
               }
             )}
           >

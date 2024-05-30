@@ -11,7 +11,7 @@ export function Footer() {
           href="https://www.instagram.com/memoriasinter/"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-[#FFCA06]"
+          className="text-white hover:text-yellow-400"
         >
           <FaInstagram className="size-5" />
         </a>
