@@ -5870,118 +5870,8 @@ export const inters: Inter[] = [
     year: '2024',
     standings: [
       {
-        rank: 0,
-        points: 0,
-        division: 1,
-        athletic: {
-          id: 'madrasta',
-          name: 'Madrasta',
-          foundationYear: '2001',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 1,
-        athletic: {
-          id: 'agronomia',
-          name: 'Agronomia',
-          foundationYear: '2007',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 1,
-        athletic: {
-          id: 'enigma',
-          name: 'Enigma',
-          foundationYear: '2007',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 1,
-        athletic: {
-          id: 'gambiarra',
-          name: 'Gambiarra',
-          foundationYear: '2007',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 1,
-        athletic: {
-          id: 'mafiosa',
-          name: 'Mafiosa',
-          foundationYear: '2007',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 1,
-        athletic: {
-          id: 'picareta',
-          name: 'Picareta',
-          foundationYear: '2008',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 1,
-        athletic: {
-          id: 'vira-lata',
-          name: 'Vira Lata',
-          foundationYear: '2008',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 1,
-        athletic: {
-          id: 'malagueta',
-          name: 'Malagueta',
-          foundationYear: '2009',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 1,
-        athletic: {
-          id: 'chefia',
-          name: 'Chefia',
-          foundationYear: '2009',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 1,
-        athletic: {
-          id: 'sulfurosa',
-          name: 'Sulfurosa',
-          foundationYear: '2010',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
+        rank: 1,
+        points: 340.6,
         division: 1,
         athletic: {
           id: 'sedentaria',
@@ -5991,8 +5881,74 @@ export const inters: Inter[] = [
         }
       },
       {
-        rank: 0,
-        points: 0,
+        rank: 2,
+        points: 279.8,
+        division: 1,
+        athletic: {
+          id: 'madrasta',
+          name: 'Madrasta',
+          foundationYear: '2001',
+          active: true
+        }
+      },
+      {
+        rank: 3,
+        points: 201.4,
+        division: 1,
+        athletic: {
+          id: 'unificada',
+          name: 'Unificada',
+          foundationYear: '2009',
+          active: true
+        }
+      },
+      {
+        rank: 4,
+        points: 152.6,
+        division: 1,
+        athletic: {
+          id: 'mafiosa',
+          name: 'Mafiosa',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 5,
+        points: 143.4,
+        division: 1,
+        athletic: {
+          id: 'gambiarra',
+          name: 'Gambiarra',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 6,
+        points: 141,
+        division: 1,
+        athletic: {
+          id: 'picareta',
+          name: 'Picareta',
+          foundationYear: '2008',
+          active: true
+        }
+      },
+      {
+        rank: 7,
+        points: 107.8,
+        division: 1,
+        athletic: {
+          id: 'sulfurosa',
+          name: 'Sulfurosa',
+          foundationYear: '2010',
+          active: true
+        }
+      },
+      {
+        rank: 8,
+        points: 103,
         division: 1,
         athletic: {
           id: 'tagarela',
@@ -6002,19 +5958,41 @@ export const inters: Inter[] = [
         }
       },
       {
-        rank: 0,
-        points: 0,
+        rank: 9,
+        points: 85.2,
         division: 1,
         athletic: {
-          id: 'magnata',
-          name: 'Magnata',
-          foundationYear: '2011',
+          id: 'enigma',
+          name: 'Enigma',
+          foundationYear: '2007',
           active: true
         }
       },
       {
-        rank: 0,
-        points: 0,
+        rank: 10,
+        points: 83,
+        division: 1,
+        athletic: {
+          id: 'agronomia',
+          name: 'Agronomia',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 11,
+        points: 75.4,
+        division: 1,
+        athletic: {
+          id: 'chefia',
+          name: 'Chefia',
+          foundationYear: '2009',
+          active: true
+        }
+      },
+      {
+        rank: 12,
+        points: 62.2,
         division: 1,
         athletic: {
           id: 'mecanica',
@@ -6024,8 +6002,19 @@ export const inters: Inter[] = [
         }
       },
       {
-        rank: 0,
-        points: 0,
+        rank: 13,
+        points: 60.6,
+        division: 1,
+        athletic: {
+          id: 'magnata',
+          name: 'Magnata',
+          foundationYear: '2011',
+          active: true
+        }
+      },
+      {
+        rank: 14,
+        points: 39.2,
         division: 1,
         athletic: {
           id: 'problematica',
@@ -6035,74 +6024,30 @@ export const inters: Inter[] = [
         }
       },
       {
-        rank: 0,
-        points: 0,
-        division: 2,
+        rank: 15,
+        points: 23.8,
+        division: 1,
         athletic: {
-          id: 'venenosa',
-          name: 'Venenosa',
-          foundationYear: '2007',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 2,
-        athletic: {
-          id: 'overdose',
-          name: 'Overdose',
-          foundationYear: '2007',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 2,
-        athletic: {
-          id: 'banguela',
-          name: 'Banguela',
-          foundationYear: '2007',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 2,
-        athletic: {
-          id: 'devasta',
-          name: 'Devasta',
+          id: 'malagueta',
+          name: 'Malagueta',
           foundationYear: '2009',
           active: true
         }
       },
       {
-        rank: 0,
-        points: 0,
-        division: 2,
+        rank: 16,
+        points: 14,
+        division: 1,
         athletic: {
-          id: 'mercenaria',
-          name: 'Mercenária',
-          foundationYear: '2010',
+          id: 'vira-lata',
+          name: 'Vira Lata',
+          foundationYear: '2008',
           active: true
         }
       },
       {
-        rank: 0,
-        points: 0,
-        division: 2,
-        athletic: {
-          id: 'trepadeira',
-          name: 'Trepadeira',
-          foundationYear: '2010',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
+        rank: 1,
+        points: 232.4,
         division: 2,
         athletic: {
           id: 'faminta',
@@ -6112,74 +6057,8 @@ export const inters: Inter[] = [
         }
       },
       {
-        rank: 0,
-        points: 0,
-        division: 2,
-        athletic: {
-          id: 'tectonica',
-          name: 'Tectônica',
-          foundationYear: '2011',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 2,
-        athletic: {
-          id: 'sanguinaria',
-          name: 'Sanguinária',
-          foundationYear: '2012',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 2,
-        athletic: {
-          id: 'soberana',
-          name: 'Soberana',
-          foundationYear: '2013',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 2,
-        athletic: {
-          id: 'hamiltoniana',
-          name: 'Hamiltoniana',
-          foundationYear: '2013',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 2,
-        athletic: {
-          id: 'berranteira',
-          name: 'Berranteira',
-          foundationYear: '2013',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 2,
-        athletic: {
-          id: 'analfabeta',
-          name: 'Analfabeta',
-          foundationYear: '2015',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
+        rank: 2,
+        points: 231.2,
         division: 2,
         athletic: {
           id: 'improdutiva',
@@ -6189,19 +6068,96 @@ export const inters: Inter[] = [
         }
       },
       {
-        rank: 0,
-        points: 0,
+        rank: 3,
+        points: 149.6,
         division: 2,
         athletic: {
-          id: 'desastrosa',
-          name: 'Desastrosa',
+          id: 'analfabeta',
+          name: 'Analfabeta',
           foundationYear: '2015',
           active: true
         }
       },
       {
-        rank: 0,
-        points: 0,
+        rank: 4,
+        points: 130.8,
+        division: 2,
+        athletic: {
+          id: 'tectonica',
+          name: 'Tectônica',
+          foundationYear: '2011',
+          active: true
+        }
+      },
+      {
+        rank: 5,
+        points: 125.6,
+        division: 2,
+        athletic: {
+          id: 'banguela',
+          name: 'Banguela',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 6,
+        points: 124.4,
+        division: 2,
+        athletic: {
+          id: 'hamiltoniana',
+          name: 'Hamiltoniana',
+          foundationYear: '2013',
+          active: true
+        }
+      },
+      {
+        rank: 7,
+        points: 120.8,
+        division: 2,
+        athletic: {
+          id: 'sanguinaria',
+          name: 'Sanguinária',
+          foundationYear: '2012',
+          active: true
+        }
+      },
+      {
+        rank: 8,
+        points: 120.4,
+        division: 2,
+        athletic: {
+          id: 'overdose',
+          name: 'Overdose',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 9,
+        points: 117.4,
+        division: 2,
+        athletic: {
+          id: 'mercenaria',
+          name: 'Mercenária',
+          foundationYear: '2010',
+          active: true
+        }
+      },
+      {
+        rank: 10,
+        points: 109.2,
+        division: 2,
+        athletic: {
+          id: 'devasta',
+          name: 'Devasta',
+          foundationYear: '2009',
+          active: true
+        }
+      },
+      {
+        rank: 11,
+        points: 108.6,
         division: 2,
         athletic: {
           id: 'pintada',
@@ -6211,41 +6167,63 @@ export const inters: Inter[] = [
         }
       },
       {
-        rank: 0,
-        points: 0,
-        division: 3,
+        rank: 12,
+        points: 90,
+        division: 2,
         athletic: {
-          id: 'predadora',
-          name: 'Predadora',
-          foundationYear: '2009',
+          id: 'desastrosa',
+          name: 'Desastrosa',
+          foundationYear: '2015',
           active: true
         }
       },
       {
-        rank: 0,
-        points: 0,
-        division: 3,
+        rank: 13,
+        points: 90,
+        division: 2,
         athletic: {
-          id: 'quimera',
-          name: 'Quimera',
-          foundationYear: '2010',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
-        division: 3,
-        athletic: {
-          id: 'simbiotica',
-          name: 'Simbiótica',
+          id: 'berranteira',
+          name: 'Berranteira',
           foundationYear: '2013',
           active: true
         }
       },
       {
-        rank: 0,
-        points: 0,
+        rank: 14,
+        points: 64.6,
+        division: 2,
+        athletic: {
+          id: 'venenosa',
+          name: 'Venenosa',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 15,
+        points: 54.2,
+        division: 2,
+        athletic: {
+          id: 'soberana',
+          name: 'Soberana',
+          foundationYear: '2013',
+          active: true
+        }
+      },
+      {
+        rank: 16,
+        points: 6.2,
+        division: 2,
+        athletic: {
+          id: 'trepadeira',
+          name: 'Trepadeira',
+          foundationYear: '2010',
+          active: true
+        }
+      },
+      {
+        rank: 1,
+        points: 326.8,
         division: 3,
         athletic: {
           id: 'subversiva',
@@ -6255,30 +6233,19 @@ export const inters: Inter[] = [
         }
       },
       {
-        rank: 0,
-        points: 0,
+        rank: 2,
+        points: 258.4,
         division: 3,
         athletic: {
-          id: 'dramatica',
-          name: 'Dramática',
-          foundationYear: '2017',
+          id: 'kraken',
+          name: 'Kraken',
+          foundationYear: '2024',
           active: true
         }
       },
       {
-        rank: 0,
-        points: 0,
-        division: 3,
-        athletic: {
-          id: 'neurotica',
-          name: 'Neurótica',
-          foundationYear: '2018',
-          active: true
-        }
-      },
-      {
-        rank: 0,
-        points: 0,
+        rank: 3,
+        points: 195.8,
         division: 3,
         athletic: {
           id: 'malcriada',
@@ -6288,19 +6255,63 @@ export const inters: Inter[] = [
         }
       },
       {
-        rank: 0,
-        points: 0,
+        rank: 4,
+        points: 185.6,
         division: 3,
         athletic: {
-          id: 'arregacada',
-          name: 'Arregaçada',
-          foundationYear: '2022',
+          id: 'quimera',
+          name: 'Quimera',
+          foundationYear: '2010',
           active: true
         }
       },
       {
-        rank: 0,
-        points: 0,
+        rank: 5,
+        points: 165,
+        division: 3,
+        athletic: {
+          id: 'neurotica',
+          name: 'Neurótica',
+          foundationYear: '2018',
+          active: true
+        }
+      },
+      {
+        rank: 6,
+        points: 146.2,
+        division: 3,
+        athletic: {
+          id: 'predadora',
+          name: 'Predadora',
+          foundationYear: '2009',
+          active: true
+        }
+      },
+      {
+        rank: 7,
+        points: 142.6,
+        division: 3,
+        athletic: {
+          id: 'simbiotica',
+          name: 'Simbiótica',
+          foundationYear: '2013',
+          active: true
+        }
+      },
+      {
+        rank: 8,
+        points: 130.8,
+        division: 3,
+        athletic: {
+          id: 'dramatica',
+          name: 'Dramática',
+          foundationYear: '2017',
+          active: true
+        }
+      },
+      {
+        rank: 9,
+        points: 53.6,
         division: 3,
         athletic: {
           id: 'dolorosa',
@@ -6310,13 +6321,13 @@ export const inters: Inter[] = [
         }
       },
       {
-        rank: 0,
-        points: 0,
+        rank: 10,
+        points: 26.2,
         division: 3,
         athletic: {
-          id: 'kraken',
-          name: 'Kraken',
-          foundationYear: '2024',
+          id: 'arregacada',
+          name: 'Arregaçada',
+          foundationYear: '2022',
           active: true
         }
       }
