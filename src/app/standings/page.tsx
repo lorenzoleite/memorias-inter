@@ -2,11 +2,13 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import { TiArrowUp } from 'react-icons/ti';
+import { TiArrowDown } from 'react-icons/ti';
 
 import { inters } from '@/app/lib/data';
 
 export default function Standings() {
-  const [selectedYear, setSelectedYear] = useState<string>('2007');
+  const [selectedYear, setSelectedYear] = useState<string>('2024');
   const [selectedDivision, setSelectedDivision] = useState<number>(1);
 
   const years = inters.map(inter => inter.year);
@@ -43,11 +45,13 @@ export default function Standings() {
           value={selectedYear}
           className="block w-full text-sm md:text-base text-center mx-auto rounded-sm duration-300 cursor-pointer bg-[#E5E7EB] hover:bg-gray-300 focus:outline-black"
         >
-          {years.map(year => (
-            <option key={year} value={year}>
-              {year}
-            </option>
-          ))}
+          {years
+            .map(year => (
+              <option key={year} value={year}>
+                {year}
+              </option>
+            ))
+            .reverse()}
         </select>
 
         {hasDivision() && (
@@ -89,7 +93,31 @@ export default function Standings() {
           return (
             <tbody key={index}>
               <tr className="border-b-2 border-gray-200">
-                <td className="py-1 px-2 text-left">{standing.rank}</td>
+                <td className="flex items-center gap-1 py-1 px-2 text-left">
+                  {standing.rank}
+                  {hasDivision() && (
+                    <>
+                      {standing.division === 1 &&
+                        [14, 15, 16].includes(standing.rank) && (
+                          <TiArrowDown className="text-red-600" />
+                        )}
+                      {standing.division === 2 && (
+                        <>
+                          {[1, 2, 3].includes(standing.rank) && (
+                            <TiArrowUp className="text-green-700" />
+                          )}
+                          {[15, 16].includes(standing.rank) && (
+                            <TiArrowDown className="text-red-600" />
+                          )}
+                        </>
+                      )}
+                      {standing.division === 3 &&
+                        [1, 2].includes(standing.rank) && (
+                          <TiArrowUp className="text-green-600" />
+                        )}
+                    </>
+                  )}
+                </td>
                 <td className="py-1 px-2 text-left">
                   <div className="flex items-center gap-4 md:gap-6">
                     <Image

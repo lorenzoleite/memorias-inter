@@ -529,7 +529,7 @@ export const athletics: Athletic[] = [
   {
     id: 'mecanica',
     name: 'Mecânica',
-    foundationYear: '2012',
+    foundationYear: '2010',
     active: true,
     inters: {
       '2011': { rank: 18, points: 22 },
@@ -867,14 +867,14 @@ export const foundationYears: FoundationYear[] = [
     year: '2007',
     athletics: [
       {
-        id: 'agronomia',
-        name: 'Agronomia',
+        id: 'banguela',
+        name: 'Banguela',
         foundationYear: '2007',
         active: true
       },
       {
-        id: 'enigma',
-        name: 'Enigma',
+        id: 'agronomia',
+        name: 'Agronomia',
         foundationYear: '2007',
         active: true
       },
@@ -885,14 +885,14 @@ export const foundationYears: FoundationYear[] = [
         active: true
       },
       {
-        id: 'mafiosa',
-        name: 'Mafiosa',
+        id: 'enigma',
+        name: 'Enigma',
         foundationYear: '2007',
         active: true
       },
       {
-        id: 'venenosa',
-        name: 'Venenosa',
+        id: 'mafiosa',
+        name: 'Mafiosa',
         foundationYear: '2007',
         active: true
       },
@@ -903,8 +903,8 @@ export const foundationYears: FoundationYear[] = [
         active: true
       },
       {
-        id: 'banguela',
-        name: 'Banguela',
+        id: 'venenosa',
+        name: 'Venenosa',
         foundationYear: '2007',
         active: true
       }
@@ -966,17 +966,12 @@ export const foundationYears: FoundationYear[] = [
     year: '2010',
     athletics: [
       {
-        id: 'sulfurosa',
-        name: 'Sulfurosa',
+        id: 'trepadeira',
+        name: 'Trepadeira',
         foundationYear: '2010',
         active: true
       },
-      {
-        id: 'sedentaria',
-        name: 'Sedentária',
-        foundationYear: '2010',
-        active: true
-      },
+
       {
         id: 'tagarela',
         name: 'Tagarela',
@@ -984,14 +979,20 @@ export const foundationYears: FoundationYear[] = [
         active: true
       },
       {
-        id: 'mercenaria',
-        name: 'Mercenária',
+        id: 'sulfurosa',
+        name: 'Sulfurosa',
         foundationYear: '2010',
         active: true
       },
       {
-        id: 'trepadeira',
-        name: 'Trepadeira',
+        id: 'mecanica',
+        name: 'Mecânica',
+        foundationYear: '2010',
+        active: true
+      },
+      {
+        id: 'sedentaria',
+        name: 'Sedentária',
         foundationYear: '2010',
         active: true
       },
@@ -1004,6 +1005,12 @@ export const foundationYears: FoundationYear[] = [
       {
         id: 'quimera',
         name: 'Quimera',
+        foundationYear: '2010',
+        active: true
+      },
+      {
+        id: 'mercenaria',
+        name: 'Mercenária',
         foundationYear: '2010',
         active: true
       }
@@ -1030,12 +1037,6 @@ export const foundationYears: FoundationYear[] = [
     year: '2012',
     athletics: [
       {
-        id: 'mecanica',
-        name: 'Mecânica',
-        foundationYear: '2012',
-        active: true
-      },
-      {
         id: 'sanguinaria',
         name: 'Sanguinária',
         foundationYear: '2012',
@@ -1053,26 +1054,26 @@ export const foundationYears: FoundationYear[] = [
         active: true
       },
       {
-        id: 'hamiltoniana',
-        name: 'Hamiltoniana',
-        foundationYear: '2013',
-        active: true
-      },
-      {
         id: 'berranteira',
         name: 'Berranteira',
         foundationYear: '2013',
         active: true
       },
       {
-        id: 'simbiotica',
-        name: 'Simbiótica',
+        id: 'hamiltoniana',
+        name: 'Hamiltoniana',
         foundationYear: '2013',
         active: true
       },
       {
         id: 'subversiva',
         name: 'Subversiva',
+        foundationYear: '2013',
+        active: true
+      },
+      {
+        id: 'simbiotica',
+        name: 'Simbiótica',
         foundationYear: '2013',
         active: true
       }
@@ -1082,20 +1083,8 @@ export const foundationYears: FoundationYear[] = [
     year: '2015',
     athletics: [
       {
-        id: 'problematica',
-        name: 'Problemática',
-        foundationYear: '2015',
-        active: true
-      },
-      {
-        id: 'analfabeta',
-        name: 'Analfabeta',
-        foundationYear: '2015',
-        active: true
-      },
-      {
-        id: 'improdutiva',
-        name: 'Improdutiva',
+        id: 'pintada',
+        name: 'Pintada',
         foundationYear: '2015',
         active: true
       },
@@ -1106,8 +1095,20 @@ export const foundationYears: FoundationYear[] = [
         active: true
       },
       {
-        id: 'pintada',
-        name: 'Pintada',
+        id: 'problematica',
+        name: 'Problemática',
+        foundationYear: '2015',
+        active: true
+      },
+      {
+        id: 'improdutiva',
+        name: 'Improdutiva',
+        foundationYear: '2015',
+        active: true
+      },
+      {
+        id: 'analfabeta',
+        name: 'Analfabeta',
         foundationYear: '2015',
         active: true
       },
@@ -1948,7 +1949,7 @@ export const inters: Inter[] = [
         athletic: {
           id: 'mecanica',
           name: 'Mecânica',
-          foundationYear: '2012',
+          foundationYear: '2010',
           active: true
         }
       },
@@ -2243,7 +2244,7 @@ export const inters: Inter[] = [
         athletic: {
           id: 'mecanica',
           name: 'Mecânica',
-          foundationYear: '2012',
+          foundationYear: '2010',
           active: true
         }
       },
@@ -2508,7 +2509,7 @@ export const inters: Inter[] = [
         athletic: {
           id: 'mecanica',
           name: 'Mecânica',
-          foundationYear: '2012',
+          foundationYear: '2010',
           active: true
         }
       },
@@ -2799,7 +2800,7 @@ export const inters: Inter[] = [
         athletic: {
           id: 'mecanica',
           name: 'Mecânica',
-          foundationYear: '2012',
+          foundationYear: '2010',
           active: true
         }
       },
@@ -3074,7 +3075,7 @@ export const inters: Inter[] = [
         athletic: {
           id: 'mecanica',
           name: 'Mecânica',
-          foundationYear: '2012',
+          foundationYear: '2010',
           active: true
         }
       },
@@ -3449,7 +3450,7 @@ export const inters: Inter[] = [
         athletic: {
           id: 'mecanica',
           name: 'Mecânica',
-          foundationYear: '2012',
+          foundationYear: '2010',
           active: true
         }
       },
@@ -3874,7 +3875,7 @@ export const inters: Inter[] = [
         athletic: {
           id: 'mecanica',
           name: 'Mecânica',
-          foundationYear: '2012',
+          foundationYear: '2010',
           active: true
         }
       },
@@ -4019,7 +4020,7 @@ export const inters: Inter[] = [
       {
         id: 'mecanica',
         name: 'Mecânica',
-        foundationYear: '2012',
+        foundationYear: '2010',
         active: true
       },
       {
@@ -4369,7 +4370,7 @@ export const inters: Inter[] = [
         athletic: {
           id: 'mecanica',
           name: 'Mecânica',
-          foundationYear: '2012',
+          foundationYear: '2010',
           active: true
         }
       },
@@ -4694,7 +4695,7 @@ export const inters: Inter[] = [
         athletic: {
           id: 'mecanica',
           name: 'Mecânica',
-          foundationYear: '2012',
+          foundationYear: '2010',
           active: true
         }
       },
@@ -5089,7 +5090,7 @@ export const inters: Inter[] = [
         athletic: {
           id: 'mecanica',
           name: 'Mecânica',
-          foundationYear: '2012',
+          foundationYear: '2010',
           active: true
         }
       },
@@ -5554,7 +5555,7 @@ export const inters: Inter[] = [
         athletic: {
           id: 'mecanica',
           name: 'Mecânica',
-          foundationYear: '2012',
+          foundationYear: '2010',
           active: true
         }
       },
@@ -5847,15 +5848,15 @@ export const inters: Inter[] = [
     ],
     committees: [
       {
-        id: 'enigma',
-        name: 'Enigma',
-        foundationYear: '2007',
-        active: true
-      },
-      {
         id: 'faminta',
         name: 'Faminta',
         foundationYear: '2010',
+        active: true
+      },
+      {
+        id: 'enigma',
+        name: 'Enigma',
+        foundationYear: '2007',
         active: true
       },
       {
@@ -5997,7 +5998,7 @@ export const inters: Inter[] = [
         athletic: {
           id: 'mecanica',
           name: 'Mecânica',
-          foundationYear: '2012',
+          foundationYear: '2010',
           active: true
         }
       },
