@@ -2341,9 +2341,9 @@ export const inters: Inter[] = [
     ],
     committees: [
       {
-        id: 'picareta',
-        name: 'Picareta',
-        foundationYear: '2008',
+        id: 'mafiosa',
+        name: 'Mafiosa',
+        foundationYear: '2007',
         active: true
       },
       {
