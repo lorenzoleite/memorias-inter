@@ -1,11 +1,47 @@
 import Image from 'next/image';
-import { Card } from '@/app/ui/card';
+import clsx from 'clsx';
 
+import { Card } from '@/app/ui/card';
 import { inters, athletics, modalities } from '@/app/lib/data';
 
 export default function Home() {
+  const years = inters.map(inter => inter.year);
+  const lastEdition = years[years.length - 1];
+  const inter = inters.find(inter => inter.year === lastEdition)!;
+  const champions = inter.standings.filter(standing => standing.rank === 1);
+
   return (
     <main className="flex-1 w-full max-w-xl mx-auto py-4 px-3">
+      <h1 className="text-lg md:text-2xl">CAMPEÕES {lastEdition}</h1>
+
+      <div className="py-2" />
+
+      <div className="grid grid-cols-3 gap-2">
+        {champions.map(champion => (
+          <div
+            key={champion.athletic.id}
+            className={clsx(
+              'flex flex-col items-center p-2 rounded-lg',
+              { 'bg-yellow-500': champion.division === 1 },
+              { 'bg-gray-400': champion.division === 2 },
+              { 'bg-orange-800 text-white': champion.division === 3 }
+            )}
+          >
+            <Image
+              src={`/logos/${champion.athletic.id}.png`}
+              width={50}
+              height={50}
+              alt={`Atlética ${champion.athletic.name} fundada em ${inter.year}`}
+              className="mb-1"
+            />
+            <p className="text-xs md:text-base">{champion.athletic.name}</p>
+            <p className="text-xs md:text-sm">{champion.division}ª divisão</p>
+          </div>
+        ))}
+      </div>
+
+      <div className="py-3" />
+
       <h1 className="text-lg md:text-2xl">MEMÓRIAS INTER</h1>
 
       <div className="py-2" />
@@ -29,14 +65,6 @@ export default function Home() {
 
       <div className="py-2" />
 
-      <p className="text-xs md:text-base text-justify indent-5">
-        Nesse primeiro momento, começamos por todas as classificações gerais e
-        comissões organizadoras de cada edição, além do ano de fundação de cada
-        atlética. Utilize o menu acima para navegar entre os dados.
-      </p>
-
-      <div className="py-2" />
-
       <p className="text-xs md:text-base text-justify">
         * Caso encontre dados inconsistentes, contate-nos pelo direct do
         Instagram:&nbsp;
@@ -49,16 +77,6 @@ export default function Home() {
           @memoriasinter
         </a>
         .
-      </p>
-
-      <div className="py-2" />
-
-      <p className="text-xs md:text-base text-justify">
-        * Nota: Nos primórdios do Inter, algumas atléticas ainda não tinham sido
-        fundadas e eram representadas somente pelo nome do seu curso. Para
-        simplificar a visualização e entendimento das classificações gerais,
-        decidimos utilizar a atlética como representante, mesmo que ela tenha
-        sido fundada posteriormente.
       </p>
 
       <div className="py-4" />

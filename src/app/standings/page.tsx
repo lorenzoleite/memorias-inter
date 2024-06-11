@@ -12,7 +12,7 @@ export default function Standings() {
   const [selectedDivision, setSelectedDivision] = useState<number>(1);
 
   const years = inters.map(inter => inter.year);
-  const inter = inters.filter(inter => inter.year === selectedYear)[0];
+  const inter = inters.find(inter => inter.year === selectedYear)!;
   const standings = inter.standings.filter(standing => {
     if (!standing.division) return inter.standings;
     return standing.division === selectedDivision;
@@ -93,30 +93,32 @@ export default function Standings() {
           return (
             <tbody key={index}>
               <tr className="border-b-2 border-gray-200">
-                <td className="flex items-center gap-1 py-1 px-2 text-left">
-                  {standing.rank}
-                  {hasDivision() && (
-                    <>
-                      {standing.division === 1 &&
-                        [14, 15, 16].includes(standing.rank) && (
-                          <TiArrowDown className="text-red-600" />
-                        )}
-                      {standing.division === 2 && (
-                        <>
-                          {[1, 2, 3].includes(standing.rank) && (
-                            <TiArrowUp className="text-green-700" />
-                          )}
-                          {[15, 16].includes(standing.rank) && (
+                <td className="py-1 px-2 text-left">
+                  <div className="flex items-center gap-1">
+                    {standing.rank}
+                    {hasDivision() && (
+                      <>
+                        {standing.division === 1 &&
+                          [14, 15, 16].includes(standing.rank) && (
                             <TiArrowDown className="text-red-600" />
                           )}
-                        </>
-                      )}
-                      {standing.division === 3 &&
-                        [1, 2].includes(standing.rank) && (
-                          <TiArrowUp className="text-green-600" />
+                        {standing.division === 2 && (
+                          <>
+                            {[1, 2, 3].includes(standing.rank) && (
+                              <TiArrowUp className="text-green-700" />
+                            )}
+                            {[15, 16].includes(standing.rank) && (
+                              <TiArrowDown className="text-red-600" />
+                            )}
+                          </>
                         )}
-                    </>
-                  )}
+                        {standing.division === 3 &&
+                          [1, 2].includes(standing.rank) && (
+                            <TiArrowUp className="text-green-600" />
+                          )}
+                      </>
+                    )}
+                  </div>
                 </td>
                 <td className="py-1 px-2 text-left">
                   <div className="flex items-center gap-4 md:gap-6">
@@ -138,6 +140,18 @@ export default function Standings() {
           );
         })}
       </table>
+
+      <div className="py-3" />
+
+      <p className="text-xs text-justify">
+        *Nota: Nos primórdios do Inter, algumas atléticas ainda não tinham sido
+        fundadas e eram representadas somente pelo nome do seu curso. Para
+        simplificar a visualização e entendimento das classificações gerais,
+        decidimos utilizar a atlética como representante, mesmo que ela tenha
+        sido fundada posteriormente.
+      </p>
+
+      <div className="py-2" />
     </main>
   );
 }
