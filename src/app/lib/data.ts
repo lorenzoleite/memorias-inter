@@ -6353,6 +6353,493 @@ export const inters: Inter[] = [
         active: true
       }
     ]
+  },
+  {
+    year: '2025',
+    standings: [
+      {
+        rank: 1,
+        points: 319,
+        division: 1,
+        athletic: {
+          id: 'madrasta',
+          name: 'Madrasta',
+          foundationYear: '2001',
+          active: true
+        }
+      },
+      {
+        rank: 2,
+        points: 265,
+        division: 1,
+        athletic: {
+          id: 'sedentaria',
+          name: 'Sedentária',
+          foundationYear: '2010',
+          active: true
+        }
+      },
+      {
+        rank: 3,
+        points: 209.6,
+        division: 1,
+        athletic: {
+          id: 'unificada',
+          name: 'Unificada',
+          foundationYear: '2009',
+          active: true
+        }
+      },
+      {
+        rank: 4,
+        points: 142.8,
+        division: 1,
+        athletic: {
+          id: 'picareta',
+          name: 'Picareta',
+          foundationYear: '2008',
+          active: true
+        }
+      },
+      {
+        rank: 5,
+        points: 139.6,
+        division: 1,
+        athletic: {
+          id: 'sulfurosa',
+          name: 'Sulfurosa',
+          foundationYear: '2010',
+          active: true
+        }
+      },
+      {
+        rank: 6,
+        points: 122.4,
+        division: 1,
+        athletic: {
+          id: 'gambiarra',
+          name: 'Gambiarra',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 7,
+        points: 117.4,
+        division: 1,
+        athletic: {
+          id: 'mafiosa',
+          name: 'Mafiosa',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 8,
+        points: 91.6,
+        division: 1,
+        athletic: {
+          id: 'agronomia',
+          name: 'Agronomia',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 9,
+        points: 84.6,
+        division: 1,
+        athletic: {
+          id: 'chefia',
+          name: 'Chefia',
+          foundationYear: '2009',
+          active: true
+        }
+      },
+      {
+        rank: 10,
+        points: 84.4,
+        division: 1,
+        athletic: {
+          id: 'faminta',
+          name: 'Faminta',
+          foundationYear: '2010',
+          active: true
+        }
+      },
+      {
+        rank: 11,
+        points: 83.2,
+        division: 1,
+        athletic: {
+          id: 'tagarela',
+          name: 'Tagarela',
+          foundationYear: '2010',
+          active: true
+        }
+      },
+      {
+        rank: 12,
+        points: 79.4,
+        division: 1,
+        athletic: {
+          id: 'enigma',
+          name: 'Enigma',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 13,
+        points: 79.2,
+        division: 1,
+        athletic: {
+          id: 'magnata',
+          name: 'Magnata',
+          foundationYear: '2011',
+          active: true
+        }
+      },
+      {
+        rank: 14,
+        points: 58.2,
+        division: 1,
+        athletic: {
+          id: 'analfabeta',
+          name: 'Analfabeta',
+          foundationYear: '2015',
+          active: true
+        }
+      },
+      {
+        rank: 15,
+        points: 42,
+        division: 1,
+        athletic: {
+          id: 'improdutiva',
+          name: 'Improdutiva',
+          foundationYear: '2015',
+          active: true
+        }
+      },
+      {
+        rank: 16,
+        points: 30,
+        division: 1,
+        athletic: {
+          id: 'mecanica',
+          name: 'Mecânica',
+          foundationYear: '2010',
+          active: true
+        }
+      },
+      {
+        rank: 1,
+        points: 218.2,
+        division: 2,
+        athletic: {
+          id: 'pintada',
+          name: 'Pintada',
+          foundationYear: '2015',
+          active: true
+        }
+      },
+      {
+        rank: 2,
+        points: 185.8,
+        division: 2,
+        athletic: {
+          id: 'problematica',
+          name: 'Problemática',
+          foundationYear: '2015',
+          active: true
+        }
+      },
+      {
+        rank: 3,
+        points: 176.4,
+        division: 2,
+        athletic: {
+          id: 'vira-lata',
+          name: 'Vira Lata',
+          foundationYear: '2008',
+          active: true
+        }
+      },
+      {
+        rank: 4,
+        points: 132.4,
+        division: 2,
+        athletic: {
+          id: 'tectonica',
+          name: 'Tectônica',
+          foundationYear: '2011',
+          active: true
+        }
+      },
+      {
+        rank: 5,
+        points: 124.2,
+        division: 2,
+        athletic: {
+          id: 'mercenaria',
+          name: 'Mercenária',
+          foundationYear: '2010',
+          active: true
+        }
+      },
+      {
+        rank: 6,
+        points: 117.4,
+        division: 2,
+        athletic: {
+          id: 'banguela',
+          name: 'Banguela',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 7,
+        points: 116.4,
+        division: 2,
+        athletic: {
+          id: 'berranteira',
+          name: 'Berranteira',
+          foundationYear: '2013',
+          active: true
+        }
+      },
+      {
+        rank: 8,
+        points: 115.4,
+        division: 2,
+        athletic: {
+          id: 'hamiltoniana',
+          name: 'Hamiltoniana',
+          foundationYear: '2013',
+          active: true
+        }
+      },
+      {
+        rank: 9,
+        points: 110,
+        division: 2,
+        athletic: {
+          id: 'sanguinaria',
+          name: 'Sanguinária',
+          foundationYear: '2012',
+          active: true
+        }
+      },
+      {
+        rank: 10,
+        points: 101,
+        division: 2,
+        athletic: {
+          id: 'venenosa',
+          name: 'Venenosa',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 11,
+        points: 94.8,
+        division: 2,
+        athletic: {
+          id: 'desastrosa',
+          name: 'Desastrosa',
+          foundationYear: '2015',
+          active: true
+        }
+      },
+      {
+        rank: 12,
+        points: 87.2,
+        division: 2,
+        athletic: {
+          id: 'kraken',
+          name: 'Kraken',
+          foundationYear: '2024',
+          active: true
+        }
+      },
+      {
+        rank: 13,
+        points: 80.8,
+        division: 2,
+        athletic: {
+          id: 'devasta',
+          name: 'Devasta',
+          foundationYear: '2009',
+          active: true
+        }
+      },
+      {
+        rank: 14,
+        points: 79.6,
+        division: 2,
+        athletic: {
+          id: 'subversiva',
+          name: 'Subversiva',
+          foundationYear: '2013',
+          active: true
+        }
+      },
+      {
+        rank: 15,
+        points: 76.6,
+        division: 2,
+        athletic: {
+          id: 'overdose',
+          name: 'Overdose',
+          foundationYear: '2007',
+          active: true
+        }
+      },
+      {
+        rank: 16,
+        points: 42.4,
+        division: 2,
+        athletic: {
+          id: 'malagueta',
+          name: 'Malagueta',
+          foundationYear: '2009',
+          active: true
+        }
+      },
+      {
+        rank: 1,
+        points: 266.8,
+        division: 3,
+        athletic: {
+          id: 'simbiotica',
+          name: 'Simbiótica',
+          foundationYear: '2013',
+          active: true
+        }
+      },
+      {
+        rank: 2,
+        points: 228.6,
+        division: 3,
+        athletic: {
+          id: 'quimera',
+          name: 'Quimera',
+          foundationYear: '2010',
+          active: true
+        }
+      },
+      {
+        rank: 3,
+        points: 226.6,
+        division: 3,
+        athletic: {
+          id: 'dramatica',
+          name: 'Dramática',
+          foundationYear: '2017',
+          active: true
+        }
+      },
+      {
+        rank: 4,
+        points: 224.4,
+        division: 3,
+        athletic: {
+          id: 'predadora',
+          name: 'Predadora',
+          foundationYear: '2009',
+          active: true
+        }
+      },
+      {
+        rank: 5,
+        points: 218.4,
+        division: 3,
+        athletic: {
+          id: 'malcriada',
+          name: 'Malcriada',
+          foundationYear: '2018',
+          active: true
+        }
+      },
+      {
+        rank: 6,
+        points: 179.6,
+        division: 3,
+        athletic: {
+          id: 'soberana',
+          name: 'Soberana',
+          foundationYear: '2013',
+          active: true
+        }
+      },
+      {
+        rank: 7,
+        points: 173.8,
+        division: 3,
+        athletic: {
+          id: 'neurotica',
+          name: 'Neurótica',
+          foundationYear: '2018',
+          active: true
+        }
+      },
+      {
+        rank: 8,
+        points: 156.6,
+        division: 3,
+        athletic: {
+          id: 'trepadeira',
+          name: 'Trepadeira',
+          foundationYear: '2010',
+          active: true
+        }
+      },
+      {
+        rank: 9,
+        points: 79.8,
+        division: 3,
+        athletic: {
+          id: 'dolorosa',
+          name: 'Dolorosa',
+          foundationYear: '2022',
+          active: true
+        }
+      },
+      {
+        rank: 10,
+        points: 59.2,
+        division: 3,
+        athletic: {
+          id: 'arregacada',
+          name: 'Arregaçada',
+          foundationYear: '2022',
+          active: true
+        }
+      }
+    ],
+    committees: [
+      {
+        id: 'tagarela',
+        name: 'Tagarela',
+        foundationYear: '2010',
+        active: true
+      },
+      {
+        id: 'sedentaria',
+        name: 'Sedentária',
+        foundationYear: '2010',
+        active: true
+      },
+      {
+        id: 'mafiosa',
+        name: 'Mafiosa',
+        foundationYear: '2007',
+        active: true
+      }
+    ]
   }
 ];
 

@@ -8,7 +8,9 @@ import { TiArrowDown } from 'react-icons/ti';
 import { inters } from '@/app/lib/data';
 
 export default function Standings() {
-  const [selectedYear, setSelectedYear] = useState<string>('2024');
+  const currentYear = new Date().getFullYear().toString();
+
+  const [selectedYear, setSelectedYear] = useState<string>(currentYear);
   const [selectedDivision, setSelectedDivision] = useState<number>(1);
 
   const years = inters.map(inter => inter.year);
@@ -41,6 +43,7 @@ export default function Standings() {
       <div className="flex gap-2">
         <select
           name="year"
+          aria-label="Ano"
           onChange={e => setSelectedYear(e.target.value)}
           value={selectedYear}
           className="block w-full text-sm md:text-base text-center mx-auto rounded-sm duration-300 cursor-pointer bg-[#E5E7EB] hover:bg-gray-300 focus:outline-black"
@@ -58,6 +61,7 @@ export default function Standings() {
           <>
             <select
               name="division"
+              aria-label="Divisão"
               onChange={e => setSelectedDivision(Number(e.target.value))}
               value={selectedDivision}
               className="block w-full text-sm md:text-base text-center mx-auto rounded-sm duration-300 cursor-pointer bg-[#E5E7EB] hover:bg-gray-300 focus:outline-black"
