@@ -16,7 +16,12 @@ export default function Home() {
 
       <div className="py-2" />
 
-      <div className="grid grid-cols-3 gap-2">
+      <div
+        className={clsx('grid gap-2', {
+          'grid-cols-2': champions.length === 2,
+          'grid-cols-3': champions.length === 3
+        })}
+      >
         {champions.map(champion => (
           <div
             key={champion.athletic.id}
