@@ -20,9 +20,24 @@ export default function Standings() {
   const inter =
     inters.find(inter => inter.year === selectedYear) ??
     inters[inters.length - 1];
+
+  const divisions = Array.from(
+    new Set(
+      inter.standings
+        .map(standing => standing.division)
+        .filter((division): division is number => Boolean(division))
+    )
+  ).sort((a, b) => a - b);
+
+  const activeDivision = divisions.includes(selectedDivision)
+    ? selectedDivision
+    : divisions[0];
+
+  const bottomDivision = Math.max(...divisions);
+
   const standings = inter.standings.filter(standing => {
-    if (!standing.division) return inter.standings;
-    return standing.division === selectedDivision;
+    if (!standing.division) return true;
+    return standing.division === activeDivision;
   });
 
   function hasPoints(): boolean {
@@ -51,7 +66,7 @@ export default function Standings() {
           aria-label="Ano"
           onChange={e => setSelectedYear(e.target.value)}
           value={selectedYear}
-          className="block w-full text-sm md:text-base text-center mx-auto rounded-sm duration-300 cursor-pointer bg-[#E5E7EB] hover:bg-gray-300 focus:outline-black"
+          className="block w-full text-sm md:text-base text-center mx-auto rounded-xs duration-300 cursor-pointer bg-[#E5E7EB] hover:bg-gray-300 focus:outline-black"
         >
           {years
             .map(year => (
@@ -68,18 +83,14 @@ export default function Standings() {
               name="division"
               aria-label="Divisão"
               onChange={e => setSelectedDivision(Number(e.target.value))}
-              value={selectedDivision}
-              className="block w-full text-sm md:text-base text-center mx-auto rounded-sm duration-300 cursor-pointer bg-[#E5E7EB] hover:bg-gray-300 focus:outline-black"
+              value={activeDivision}
+              className="block w-full text-sm md:text-base text-center mx-auto rounded-xs duration-300 cursor-pointer bg-[#E5E7EB] hover:bg-gray-300 focus:outline-black"
             >
-              <option key={1} value={1}>
-                1ª divisão
-              </option>
-              <option key={2} value={2}>
-                2ª divisão
-              </option>
-              <option key={3} value={3}>
-                3ª divisão
-              </option>
+              {divisions.map(division => (
+                <option key={division} value={division}>
+                  {division}ª divisão
+                </option>
+              ))}
             </select>
 
             <div className="py-2" />
@@ -108,6 +119,7 @@ export default function Standings() {
                     {hasDivision() && (
                       <>
                         {standing.division === 1 &&
+                          standing.division !== bottomDivision &&
                           [14, 15, 16].includes(standing.rank) && (
                             <TiArrowDown className="text-red-600" />
                           )}
@@ -116,9 +128,10 @@ export default function Standings() {
                             {[1, 2, 3].includes(standing.rank) && (
                               <TiArrowUp className="text-green-700" />
                             )}
-                            {[15, 16].includes(standing.rank) && (
-                              <TiArrowDown className="text-red-600" />
-                            )}
+                            {standing.division !== bottomDivision &&
+                              [15, 16].includes(standing.rank) && (
+                                <TiArrowDown className="text-red-600" />
+                              )}
                           </>
                         )}
                         {standing.division === 3 &&

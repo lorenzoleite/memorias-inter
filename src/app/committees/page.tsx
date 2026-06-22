@@ -11,7 +11,7 @@ export default function Committees() {
 
       {inters.map(inter => (
         <div key={inter.year} className="block">
-          <div className="w-full px-4 py-1 rounded-sm bg-[#E5E7EB]">
+          <div className="w-full px-4 py-1 rounded-xs bg-[#E5E7EB]">
             <p className="font-medium text-center text-sm md:text-base">
               {inter.year}
             </p>
