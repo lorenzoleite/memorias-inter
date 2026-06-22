@@ -51,7 +51,7 @@ export default function Standings() {
           aria-label="Ano"
           onChange={e => setSelectedYear(e.target.value)}
           value={selectedYear}
-          className="block w-full text-sm md:text-base text-center mx-auto rounded-sm duration-300 cursor-pointer bg-[#E5E7EB] hover:bg-gray-300 focus:outline-black"
+          className="block w-full text-sm md:text-base text-center mx-auto rounded-xs duration-300 cursor-pointer bg-[#E5E7EB] hover:bg-gray-300 focus:outline-black"
         >
           {years
             .map(year => (
@@ -69,7 +69,7 @@ export default function Standings() {
               aria-label="Divisão"
               onChange={e => setSelectedDivision(Number(e.target.value))}
               value={selectedDivision}
-              className="block w-full text-sm md:text-base text-center mx-auto rounded-sm duration-300 cursor-pointer bg-[#E5E7EB] hover:bg-gray-300 focus:outline-black"
+              className="block w-full text-sm md:text-base text-center mx-auto rounded-xs duration-300 cursor-pointer bg-[#E5E7EB] hover:bg-gray-300 focus:outline-black"
             >
               <option key={1} value={1}>
                 1ª divisão
