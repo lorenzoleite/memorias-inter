@@ -6,6 +6,9 @@
 .pnp.js
 .yarn/install-state.gz
 
+# pnpm 11+ build-script approval (local only; breaks Vercel's pnpm 9)
+/pnpm-workspace.yaml
+
 # testing
 /coverage
 
