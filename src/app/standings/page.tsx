@@ -10,11 +10,16 @@ import { inters } from '@/app/lib/data';
 export default function Standings() {
   const currentYear = new Date().getFullYear().toString();
 
-  const [selectedYear, setSelectedYear] = useState<string>(currentYear);
+  const years = inters.map(inter => inter.year);
+  const latestYear = years[years.length - 1];
+  const initialYear = years.includes(currentYear) ? currentYear : latestYear;
+
+  const [selectedYear, setSelectedYear] = useState<string>(initialYear);
   const [selectedDivision, setSelectedDivision] = useState<number>(1);
 
-  const years = inters.map(inter => inter.year);
-  const inter = inters.find(inter => inter.year === selectedYear)!;
+  const inter =
+    inters.find(inter => inter.year === selectedYear) ??
+    inters[inters.length - 1];
   const standings = inter.standings.filter(standing => {
     if (!standing.division) return inter.standings;
     return standing.division === selectedDivision;
